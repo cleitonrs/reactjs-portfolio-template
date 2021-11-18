@@ -4,6 +4,7 @@ import "./Service.css";
 const Service = () => {
   return (
     <div className="Service component__space">
+
       <div className="heading">
         <h1 className="heading">My Awesome Services</h1>
         <p className="heading p__color">
@@ -13,6 +14,7 @@ const Service = () => {
           but the majority have suffered alteration.
         </p>
       </div>
+      
       <div className="container">
         <div className="row">
           <div className="col__3">
