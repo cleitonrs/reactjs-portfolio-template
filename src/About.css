@@ -26,3 +26,31 @@ button.about.btn.pointer {
 .about__button {
   padding: 20px 0;
 }
+
+a.bottom__to__top {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  background-color: #f9004d;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: .4s all ease;
+  z-index: 1000;
+}
+
+a.bottom__to__top.active {
+  display: flex;
+}
+
+a.bottom__to__top::after {
+  content: "<";
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  transform: rotate(90deg);
+}

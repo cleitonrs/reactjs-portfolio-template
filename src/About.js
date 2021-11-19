@@ -3,6 +3,11 @@ import "./About.css";
 import aboutImg from "./img/about.jpg";
 
 const About = () => {
+  // Up To Top Button
+  window.addEventListener('scroll', () => {
+    const upToTop = document.querySelector('a.bottom__to__top')
+    upToTop.classList.toggle("active", window.scrollY > 0)
+  })
   return (
     <div className="about component__space">
       <div className="container">
@@ -39,7 +44,7 @@ const About = () => {
       </div>
       {/* UP TO TOP BUTTON */}
       <div className="up__to__top__btn">
-        
+        <a href="#" className="bottom__to__top"> </a>
       </div>
     </div>
   );
