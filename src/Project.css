@@ -87,7 +87,7 @@ button.btn {
   border-radius: 5px;
   border: 2px solid #f9004d;
   background-color: #f9004d;
-  color: #fff;
+  color: #fff!important;
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: .4s all ease;

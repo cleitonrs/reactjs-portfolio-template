@@ -1,11 +1,9 @@
 import React from "react";
 import "./Project.css";
-import Project1 from "./img/portfolio-1.jpg"
-import Project2 from "./img/portfolio-2.jpg" 
-import Project3 from "./img/portfolio-3.jpg" 
-import Project4 from "./img/portfolio-4.jpg" 
-
-
+import Project1 from "./img/portfolio-1.jpg";
+import Project2 from "./img/portfolio-2.jpg";
+import Project3 from "./img/portfolio-3.jpg";
+import Project4 from "./img/portfolio-4.jpg";
 
 const Project = () => {
   return (
@@ -21,7 +19,6 @@ const Project = () => {
       </div>
       <div className="container">
         <div className="row">
-
           <div className="col__3">
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
@@ -32,8 +29,12 @@ const Project = () => {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Development</h5>
-                <h4 className="project__text">Getting tickets to the big show</h4>
-                <a href="#" className="project__btn">View Details</a>
+                <h4 className="project__text">
+                  Getting tickets to the big show
+                </h4>
+                <a href="#" className="project__btn">
+                  View Details
+                </a>
               </div>
             </div>
           </div>
@@ -48,8 +49,12 @@ const Project = () => {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Development</h5>
-                <h4 className="project__text">Getting tickets to the big show</h4>
-                <a href="#" className="project__btn">View Details</a>
+                <h4 className="project__text">
+                  Getting tickets to the big show
+                </h4>
+                <a href="#" className="project__btn">
+                  View Details
+                </a>
               </div>
             </div>
           </div>
@@ -64,8 +69,12 @@ const Project = () => {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Development</h5>
-                <h4 className="project__text">Getting tickets to the big show</h4>
-                <a href="#" className="project__btn">View Details</a>
+                <h4 className="project__text">
+                  Getting tickets to the big show
+                </h4>
+                <a href="#" className="project__btn">
+                  View Details
+                </a>
               </div>
             </div>
           </div>
@@ -80,8 +89,12 @@ const Project = () => {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Development</h5>
-                <h4 className="project__text">Getting tickets to the big show</h4>
-                <a href="#" className="project__btn">View Details</a>
+                <h4 className="project__text">
+                  Getting tickets to the big show
+                </h4>
+                <a href="#" className="project__btn">
+                  View Details
+                </a>
               </div>
             </div>
           </div>
@@ -96,8 +109,12 @@ const Project = () => {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Development</h5>
-                <h4 className="project__text">Getting tickets to the big show</h4>
-                <a href="#" className="project__btn">View Details</a>
+                <h4 className="project__text">
+                  Getting tickets to the big show
+                </h4>
+                <a href="#" className="project__btn">
+                  View Details
+                </a>
               </div>
             </div>
           </div>
@@ -112,16 +129,19 @@ const Project = () => {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Development</h5>
-                <h4 className="project__text">Getting tickets to the big show</h4>
-                <a href="#" className="project__btn">View Details</a>
+                <h4 className="project__text">
+                  Getting tickets to the big show
+                </h4>
+                <a href="#" className="project__btn">
+                  View Details
+                </a>
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
-            <button className="view__more pointer btn">View More</button>
-          </div>
-
+        <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
+          <button className="view__more pointer btn">View More</button>
         </div>
       </div>
     </div>
