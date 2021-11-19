@@ -37,6 +37,10 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* UP TO TOP BUTTON */}
+      <div className="up__to__top__btn">
+        
+      </div>
     </div>
   );
 };
