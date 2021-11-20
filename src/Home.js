@@ -9,7 +9,7 @@ const Home = () => {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toggle Menu
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   return (
     <div className="home" id="Home">

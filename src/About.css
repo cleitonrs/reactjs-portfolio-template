@@ -61,3 +61,27 @@ a.bottom__to__top::after {
     font-size: 15px!important;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 165px;
+    height: 50px;
+    font-size: 13px;
+    transition: .4s ease;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  button.about.btn.pointer {
+    width: 130px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  button.about.btn.pointer {
+    width: 120px;
+    font-size: 12px;
+  }
+}

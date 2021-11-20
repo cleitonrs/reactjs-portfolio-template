@@ -77,12 +77,21 @@ ul.sidebar.d__flex {
 
 li.sideNavbar {
   padding: 25px 30px;
+  display: none;
+}
+
+svg.bi.bi-justify.white.pointer {
+  display: none;
 }
 
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
   .header {
     justify-content: space-between;
+  }
+
+  li.sideNavbar {
+    display: initial;
   }
 
   .navigation.pxy__30 {
@@ -94,7 +103,26 @@ li.sideNavbar {
   }
 
   svg.bi.bi-justify.white.pointer {
+    display: initial;
     width: 30px;
     height: 30px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  h2.home__text.pz__10 {
+    font-size: 32px;
+  }
+
+  h3.sweet.pz__10 {
+    font-size: 40px;
+  }
+
+  h1.home__text {
+    font-size: 14px;
+  }
+
+  h4.home__text {
+    font-size: 45px;
   }
 }
