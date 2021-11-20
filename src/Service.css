@@ -50,3 +50,10 @@ h1.service__text {
   font-family: Poppins, sans-serif;
   padding: 10px 0;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+  .service__box {
+    padding: 32px;
+  }
+}

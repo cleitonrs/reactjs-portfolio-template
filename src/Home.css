@@ -54,3 +54,47 @@ h4.home__text {
   padding: 0 30px;
   background-color: #191919;
 }
+
+.toggle__menu {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  z-index: 1000;
+  width: 100%;
+}
+
+ul.sidebar.d__flex {
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  background: #010101;
+  justify-content: center;
+  width: 300px;
+  top: 0;
+}
+
+li.sideNavbar {
+  padding: 25px 30px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .navigation.pxy__30 {
+    display: none;
+  }
+
+  h2.white.pz__10 {
+    font-size: 50px!important;
+  }
+
+  svg.bi.bi-justify.white.pointer {
+    width: 30px;
+    height: 30px;
+  }
+}

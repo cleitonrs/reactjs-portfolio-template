@@ -98,3 +98,16 @@ button.view__more:hover {
   border: 2px solid #f9004d;
   color: #f9004d!important; 
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+  h5.project__text {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  h4.project__text {
+    font-size: 18px;
+  }
+}

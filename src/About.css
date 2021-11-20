@@ -54,3 +54,10 @@ a.bottom__to__top::after {
   font-weight: 700;
   transform: rotate(90deg);
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+  .p__color {
+    font-size: 15px!important;
+  }
+}
