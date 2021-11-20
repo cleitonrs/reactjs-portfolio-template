@@ -9,6 +9,11 @@
 li.nav__items {
   font-size: 18px;
   padding-bottom: 15px;
+  transition: .3s ease;
+}
+
+li.nav__items:hover {
+  filter: brightness(.5);
 }
 
 .home__content {
@@ -77,7 +82,12 @@ ul.sidebar.d__flex {
 
 li.sideNavbar {
   padding: 25px 30px;
+  transition: .3s ease;
   display: none;
+}
+
+li.sideNavbar:hover {
+  filter: brightness(.5);
 }
 
 svg.bi.bi-justify.white.pointer {
