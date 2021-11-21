@@ -1,5 +1,11 @@
+:root {
+  --primary-color: #ffcd1e;
+  --white: #fff;
+  --black: #191919;
+}
+
 .about {
-  background: #191919;
+  background: var(--black);
 }
 
 img.about__img {
@@ -33,7 +39,7 @@ a.bottom__to__top {
   position: fixed;
   bottom: 3%;
   right: 2%;
-  background-color: #f9004d;
+  background-color: var(--primary-color);
   border-radius: 50%;
   cursor: pointer;
   display: none;
@@ -50,7 +56,7 @@ a.bottom__to__top.active {
 a.bottom__to__top::after {
   content: "<";
   font-family: Poppins, sans-serif;
-  color: #fff;
+  color: var(--white);
   font-weight: 700;
   transform: rotate(90deg);
 }

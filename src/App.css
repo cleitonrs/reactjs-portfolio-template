@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #ffcd1e;
+  --white: #fff;
+  --black: #000;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -14,12 +20,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
 }
 
 h1, h2, h3, h4, h5, h6, span {
   font-size: 18px;
-  color: #fff;
+  color: var(--white);
   font-family: Poppins, sans-serif;
 }
 
@@ -37,11 +43,11 @@ p {
 }
 
 .white {
-  color: #fff !important;
+  color: var(--white)!important;
 }
 
 .black {
-  color: #000 !important;
+  color: var(--black)!important;
 }
 
 .d__flex {
@@ -82,7 +88,7 @@ p {
 }
 
 .sweet {
-  color: #F9004D;
+  color: var(--primary-color);
 }
 
 .row {
@@ -132,7 +138,7 @@ svg {
 }
 
 strong {
-  color: #F9004D;
+  color: var(--primary-color);
   font-weight: 600;
 }
 
@@ -144,8 +150,8 @@ button.btn {
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
-  border: 2px solid #f9004d;
-  background-color: #f9004d;
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 2px;
