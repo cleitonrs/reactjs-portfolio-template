@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-import logo from "./img/logo.png";
+import logo from "../../img/logo.png";
 
 const Home = () => {
   // Fixed Header
