@@ -56,7 +56,7 @@ a.bottom__to__top.active {
 a.bottom__to__top::after {
   content: "<";
   font-family: Poppins, sans-serif;
-  color: var(--white);
+  color: var(--black);
   font-weight: 700;
   transform: rotate(90deg);
 }

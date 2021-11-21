@@ -1,6 +1,12 @@
+:root {
+  --black-1: #010101;
+  --black-2: #191919;
+  --grey: rgba(198, 201, 216, .75) 
+}
+
 .home__bg {
   background-image: url('../../img/bg.jpg');
-  background-color: #010101;
+  background-color: var(--black-1);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +30,7 @@ h1.home__text {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 3px;
-  color: rgba(198, 201, 216, .75);
+  color: var(--grey);
 }
 
 h2.home__text {
@@ -57,7 +63,7 @@ h4.home__text {
   z-index: 1000;
   width: 100%;
   padding: 0 30px;
-  background-color: #191919;
+  background-color: var(--black-2);
 }
 
 .toggle__menu {
@@ -74,7 +80,7 @@ ul.sidebar.d__flex {
   height: 100%;
   position: fixed;
   right: 0;
-  background: #010101;
+  background: var(--black-1);
   justify-content: center;
   width: 300px;
   top: 0;
