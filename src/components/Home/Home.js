@@ -8,9 +8,11 @@ const Home = () => {
     const header = document.querySelector(".header");
     header.classList.toggle("active", window.scrollY > 0);
   });
+
+
   // Toggle Menu
   const [show, setShow] = useState(false);
-
+  
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -41,21 +43,15 @@ const Home = () => {
             </ul>
           </div>
           {/* Toggle Menu */}
-          <div className="toggle__menu">
-            <svg
-              onClick={() => setShow(!show)}
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="#ffcd1e"
-              class="bi bi-justify white pointer"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
+          <div className="toggle__menu toggle" 
+          onClick={() => {
+            setShow(!show)
+            let iconMenu = document.querySelector(".toggle")
+            iconMenu.classList.toggle("active")       
+          }}>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
           {show ? (
             <div className="sideNavbar">
@@ -80,7 +76,7 @@ const Home = () => {
                 </li>
               </ul>
             </div>
-          ) : null}
+          ) : null }
         </div>
         {/* HOME CONTENT */}
         <div className="container">
