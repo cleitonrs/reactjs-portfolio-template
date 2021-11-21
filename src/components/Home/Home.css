@@ -86,6 +86,7 @@ h4.home__text {
   align-items: center;
   cursor: pointer;
   overflow: hidden;
+  display: none;
 }
 
 .toggle span {
@@ -140,7 +141,6 @@ ul.sidebar.d__flex {
 li.sideNavbar {
   padding: 25px 30px;
   transition: .3s ease;
-  display: none;
 }
 
 li.sideNavbar:hover {
@@ -157,10 +157,6 @@ svg.bi.bi-justify.white.pointer {
     justify-content: space-between;
   }
 
-  li.sideNavbar {
-    display: initial;
-  }
-
   .navigation.pxy__30 {
     display: none;
   }
@@ -169,11 +165,16 @@ svg.bi.bi-justify.white.pointer {
     font-size: 50px!important;
   }
 
-  svg.bi.bi-justify.white.pointer {
+  .toggle {
+    display: flex;
+  }
+
+
+  /* svg.bi.bi-justify.white.pointer {
     display: initial;
     width: 30px;
     height: 30px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 425px) {
