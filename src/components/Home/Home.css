@@ -6,11 +6,11 @@
 }
 
 .home__bg {
-  background-image: url('../../img/bg.jpg');
+  background-image: url('../../img/photo.jpeg');
   background-color: var(--black-1);
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 li.nav__items {
@@ -169,12 +169,6 @@ svg.bi.bi-justify.white.pointer {
     display: flex;
   }
 
-
-  /* svg.bi.bi-justify.white.pointer {
-    display: initial;
-    width: 30px;
-    height: 30px;
-  } */
 }
 
 @media only screen and (max-width: 425px) {
