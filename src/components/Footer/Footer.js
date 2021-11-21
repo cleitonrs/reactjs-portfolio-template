@@ -7,7 +7,7 @@ const Footer = () => {
       "zIndex": "100", "padding": "10px 20px"
     }}>
       <img src={footerImg} alt="" className="footer__img pointer" />
-      <span className="copyright" style={{"color": "#c6c9d8", "fontSize": "14px", "opacity": "0.75"}}>Copyright © 2021 programmer Cleiton Santos. All Rights Reserved.</span>
+      <span className="copyright" style={{"color": "#c6c9d8", "fontSize": "14px", "opacity": "0.75"}}>Copyright © 2021 programmer <a href="https://www.github.com/cleitonrs" target="_blank" rel="noreferrer">Cleiton Santos</a>. All Rights Reserved.</span>
     </div>
   )
 }
