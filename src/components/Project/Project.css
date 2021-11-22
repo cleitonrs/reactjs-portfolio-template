@@ -1,12 +1,13 @@
 :root {
   --primary-color: #ffcd1e;
   --black: #000;
+  --black2: #191919; 
   --white: #fff;
   --grey: #ffffff87;
 }
 
 .project {
-  background-color: #191919;
+  background-color: var(--black-2);
 }
 
 img.project__img {
