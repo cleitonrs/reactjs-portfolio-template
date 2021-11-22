@@ -136,6 +136,7 @@ ul.sidebar.d__flex {
   justify-content: center;
   width: 300px;
   top: 0;
+  display: none;
 }
 
 li.sideNavbar {
@@ -153,6 +154,10 @@ svg.bi.bi-justify.white.pointer {
 
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
+  ul.sidebar.d__flex {
+    display: flex;
+  }
+
   .header {
     justify-content: space-between;
   }
