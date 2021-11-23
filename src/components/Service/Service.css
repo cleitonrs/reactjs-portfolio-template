@@ -24,7 +24,7 @@ p.heading.p__color {
   width: 100%;
   background-color: var(--black);
   padding: 55px;
-  transition: .4s ease;
+  transition: .8s all ease;
 }
 
 .service__box:hover {
